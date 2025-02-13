@@ -45,6 +45,7 @@ function Model() {
             if (child.name === "Pillar2") {
                 child.material = new THREE.MeshStandardMaterial({
                     map: texture,
+                    roughness: 0.1,
                 })
             }
         })
